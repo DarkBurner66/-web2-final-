@@ -1,1 +1,53 @@
-/*  HTML
+/*------------------------------------
+BASE
+------------------------------------*/
+html {
+    box-sizing: border-box;
+}
+
+
+*,*:before,*:after {
+    box-sizing: inherit;
+}
+
+
+/*------------------------------------
+ELEMENT
+------------------------------------*/
+body{
+    font-family: "DM Sans", "Rowdies", "Permanent Marker";
+}
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+    
+}
+p{
+    font: 400 1rem "DM Sans" ;
+    margin: 0;
+}
+
+li{
+    list-style: none;
+}
+
+
+/*------------------------------------
+COMPONENT
+------------------------------------*/
+
+/* header */
+
+/* section hero */
+
+/* section produit */
+
+/* section conseil */
+
+
+
+/* footer */
