@@ -34,14 +34,57 @@ p{
 li{
     list-style: none;
 }
-
+h1{
+    font: 400 2.375rem "Permanent Marker";
+    text-transform: uppercase;
+}
+h2{
+    font: 400 2.25rem "Rowdies";
+    text-transform: uppercase;
+}
+h3{
+    font: 400 1.5rem "Rowdies"
+}
+h4{
+    font: 400 1.25rem "Rowdies"
+}
 
 /*------------------------------------
 COMPONENT
 ------------------------------------*/
 
 /* header */
+header{
+    background: #7C8C03;
+}
+header .wrapper{
+    display: flex;
+   justify-content: space-between;
+    align-items: center;
 
+}
+header .logo{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+.logo h2{
+    margin: 27.5px 0;
+}
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+    gap:30px;
+    align-items: center;
+}
+header nav li a{
+    font: 400 1.125rem "DM Sans";
+    text-transform: uppercase;
+    color: #000;
+}
+header nav li a:hover{
+    color: #FFFEED;
+}
 /* section hero */
 
 /* section produit */
