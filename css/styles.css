@@ -3,6 +3,7 @@ BASE
 ------------------------------------*/
 html {
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 
@@ -49,7 +50,7 @@ h4{
     font: 400 1.25rem "Rowdies"
 }
 .bouton{
-    font: 400 1.125 "DM Sans";
+    font: 400 1.125rem "DM Sans";
     text-transform: uppercase;
     padding:15px 40px ;
 }
@@ -87,7 +88,7 @@ header nav li a{
     color: #000;
 }
 header nav li a:hover{
-    color: #FFFEED;
+    color: #FFFCCF;
 }
 /* section hero */
 .hero{
@@ -118,10 +119,14 @@ header nav li a:hover{
     color: #fff;
 }
 .callToAction .bouton{
-    color:#FFFEED;
-    padding: 13px 30px;
+    color:#FFFCCF;
+    padding: 10px 30px;
     background:#B9BF04;
     margin: 45px 0;
+}
+.callToAction .bouton:hover{
+    padding:15px 35px;
+    margin: 40px 0;
 }
 /* section produit */
 .produits{
@@ -172,6 +177,11 @@ header nav li a:hover{
 .produits .bouton{
     border:1px #000 solid;
 }
+.produits .bouton:hover{
+    background:#104E82;
+    color: #fff;
+    border:1px transparent solid;
+}
 .produits .option{
     padding-bottom: 45px;
     display: flex;
@@ -179,7 +189,7 @@ header nav li a:hover{
 }
 /* section equipe */
 .equipe{
-    background:#FFFEED;
+    background:#FFFCCF;
 }
 .equipe h2{
     margin: 0;
@@ -231,6 +241,12 @@ header nav li a:hover{
     color: #fff;
     text-align: center;
     margin-bottom: 50px;
+    border: 1px transparent solid;
+}
+.contact .bouton:hover{
+background: #FFFCCF;
+color: #000;
+border: 1px #000 solid;
 }
 .contact img{
     width: 100vw;
@@ -258,7 +274,7 @@ footer img{
     width: 45px;
     border-radius: 100%;
     
-    background: #fff;
+   
 }
 footer .material-icons{
     color: #fff;
@@ -269,9 +285,101 @@ footer .material-icons{
     display: flex;
     justify-content: center;
     align-items: center;
-
+    font-size:2rem ;
+}
+footer .material-icons:hover{
+    border: 1px #000 solid;
+    color: #000;
+    background: #fff;
 }
 footer p{
     color: #fff;
     padding-bottom: 45px;
+}
+
+
+
+/* ============================================================liste acticle html=================================== */
+/* section vedette */
+.vedette .wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.vedette .wow{
+ display: flex;
+ justify-content: center;
+
+ gap: 30px;
+ margin:50px 20px ;
+}
+.wow article {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+.wow h2{
+    font-size: 3rem;
+    margin: 0;
+}
+.wow h3{
+    font-size: 2rem;
+    margin: 0;
+}
+.vedette .wow p{
+    font: 400 1.5rem/1.3em "DM Sans" ;
+
+}
+.wow img{
+    height: 500px;
+}
+
+.wow ul{
+    margin: 0;
+    padding: 0;
+}
+/* section liste  */
+.liste{
+    background: #FFFCCF;
+}
+.liste .wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px 0;
+    padding: 50px 0;
+    
+}
+.liste h3{
+    margin: 0;
+}
+.liste article{
+    background: #fff;
+   
+   margin: 0 auto;
+    
+    width: 400px;
+    border: 5px #384001 solid;
+
+}
+.liste a{
+    padding: 0 30px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    height: inherit;
+    text-align: center;
+    min-height: 440px;
+}
+.liste p{
+    font: 400 1rem/1.3em "DM Sans" ;
+    margin: 0;
+}
+.liste article a h4{
+    
+   margin-top: auto;
+  margin-bottom: 10px;
+   
 }
