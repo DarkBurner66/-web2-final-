@@ -146,6 +146,20 @@ header nav li a:hover{
 .produits nav li:nth-child(n+2){
     list-style: "/";
 }
+.produits figcaption h4{
+    text-align: center;
+margin: 100px 0 0;
+padding: 10px 0 4px;
+color: #000;
+}
+.produits figcaption p{
+    text-align: center;
+    
+}
+.produits figcaption div{
+    background: #CDCDCD;
+    padding: 0px 20px 5px;
+}
 .ligne1 ul{
     display: flex;
     justify-content:space-between;
@@ -299,7 +313,7 @@ footer p{
 
 
 
-/* ============================================================liste acticle html=================================== */
+/* ============================================================liste et fiche acticle html=================================== */
 /* section vedette */
 .vedette .wrapper{
     display: flex;
@@ -397,4 +411,49 @@ footer p{
    margin-top: auto;
   margin-bottom: 10px;
    
+}
+
+
+/* modale */
+
+img.zoom{
+    width: 700px;
+    height: 700px;
+   
+    border-radius: 10px;
+}
+img.zoom:hover{
+    cursor:pointer ;
+}
+.modale div{
+    background: #fff;
+    border-radius: 10px;
+   padding: 15px;
+ 
+  
+}
+.modale h2{
+    margin:20px 0 10px;
+    text-align: center;
+}
+.modale h3{
+    margin: 0;
+    text-align: center;
+}
+.modale{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+
+}
+.visible{
+    display:flex;
+    
 }
