@@ -337,17 +337,32 @@ footer p{
 
 .wow ul{
     margin: 0;
-    padding: 0;
+   padding-left: 18px;
+   display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+.wow li{
+   list-style-type: disc;
+   font: 400 1.2rem "DM Sans" ;
+}
+.wow article .flemme:hover{
+    color: #104E82;
 }
 /* section liste  */
+.liste h2{
+    margin:0 auto 50px ;
+    text-align: center;
+}
 .liste{
     background: #FFFCCF;
+    padding: 50px 0;
 }
 .liste .wrapper{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 100px 0;
-    padding: 50px 0;
+    
     
 }
 .liste h3{
